@@ -4,7 +4,6 @@
 	margin: auto;
 	width: 900px;
 	background: white;
-	overflow: hidden;
 }
 
 .center {
@@ -115,5 +114,14 @@ img {
   .links {
   line-height: 40px;
   }
+}
 
+@media screen and (min-width: 400px) and (max-width: 800px) {
+ .content {
+  width: auto;
+ }
+
+ .content-text {
+  width: auto;
+ }
 }
